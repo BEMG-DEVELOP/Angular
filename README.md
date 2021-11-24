@@ -17,7 +17,21 @@ para poder ver los cambios.
 
 ## Code scaffolding
 
-Ejecutar el comando `ng generate component component-name` para generar un nuevo componente. Tambien puede usar `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Ejecutar el comando `ng generate component component-name` para generar un nuevo componente.
+
+Cuando creamos un componentes se crearan  4 archivos en la carpeta app:
+
+ ->Un html
+ ->Un css (Una hoja de estilos),
+ ->Un spec(test)
+ ->Un ts (Funcionalidad logica)
+
+Para que el usuario pueda visualizar los cambios debemos agregar el nombre del componente 
+(ubicado en el archivo ts en la variable `Selector`) en el archivo app.component.html
+
+
+
+ Tambien puede usar `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
 ## Build
 
