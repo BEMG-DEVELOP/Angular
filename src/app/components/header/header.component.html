@@ -1,0 +1,15 @@
+<h1>Creamos el componente Header</h1>
+
+<h2>Usando variables</h2>
+<p>Aprendiendo Sobre los componentes mi nombre es {{ Nombre }}</p>
+<button id="btn-html" (click)="Nombre = 'Miriam' ">Cambiar desde html</button>
+<button id="btn-ts" (click)=cambiarNombre()>Cambiar desde .ts</button>
+
+<h2>Operaciones Aritmeticas</h2>
+<p>{{ contador }}</p>
+<button id="btn-sumador" (click)=suma()>Sumar +1</button>
+
+<h2>Arreglos</h2>
+<ul>
+    <li *ngFor="let numero of arr">{{ numero }}</li>
+</ul>

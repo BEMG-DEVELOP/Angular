@@ -26,9 +26,11 @@ Cuando creamos un componentes se crearan  4 archivos en la carpeta app:
  ->Un spec(test)
  ->Un ts (Funcionalidad logica)
 
-Para que el usuario pueda visualizar los cambios debemos agregar el nombre del componente 
-(ubicado en el archivo ts en la variable `Selector`) en el archivo app.component.html
+Para que el usuario pueda visualizar los cambios debemos agregar el nombre del componente
+(ubicado en el archivo ts en la variable `Selector`) en el archivo app.component.html o en el index.html
 
+El archivo .ts es muy importante, por que en el van los archivos importados, variables , funciones y toda la logica de ese 
+componente.
 
 
  Tambien puede usar `ng generate directive|pipe|service|class|guard|interface|enum|module`.
